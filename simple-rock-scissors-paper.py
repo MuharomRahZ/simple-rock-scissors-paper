@@ -92,7 +92,7 @@ def rewritePlayer():
     player1['status'] = "-"
     player2['name'] = "Player 2"
     player2['status'] = "-"
-    print(f"You have rewritten players name & status to the list of players")
+    print(f"You have rewritten players name to the list of players")
     menu = int(input("Enter your choice: "))
     opsiManagePlayer(menu)
 
@@ -124,7 +124,7 @@ def roll():
     print(f"{player1['name']} has rolled {player1['status']}")
     print(f"{player2['name']} has rolled {player2['status']}")
     print(f"---------------------------------")
-    print(f"Results:")
+    print(f"|Results:|")
     if player1['status'] == rsp[1] and player2['status'] == rsp[2]:
         print(player2['name'], " WON | ",player1['name'], " LOST")
     elif player1['status'] == rsp[2] and player2['status'] == rsp[1]:
