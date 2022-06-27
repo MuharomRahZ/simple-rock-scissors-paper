@@ -53,15 +53,6 @@ def opsiManagePlayer(menu):
     else:
         print(f"Invalid choice")
         managePlayer()
-
-# def opsiPlayMenu(menu):
-#     if menu == 1:
-#         playOption()
-#     elif menu == 2:
-#         mainMenu()
-#     else:
-#         print(f"Invalid choice")
-#         playMenu()
     
 
 def managePlayer():
@@ -74,15 +65,7 @@ def managePlayer():
     except Exception as exception:
         print("Error: %s!\n\n" % exception)
 
-# def playMenu():
-#     try:
-#         print(f"=======================")
-#         print(f"You have chosen to play")
-#         print(f"---CHOOSE MENU---\n1. PLAY\n2. BACK")
-#         menu = int(input("Enter your choice: "))
-#         opsiPlayMenu(menu)
-#     except Exception as exception:
-#         print("Error: %s!\n\n" % exception)
+
 
 def viewPlayer():
     print(f"===========================================")
@@ -164,6 +147,8 @@ def roll():
 
 mainMenu()
 
+
+# [unused code]:
 # print(f"WELCOME TO ROCK, SCISSORS, & PAPER!")
 # print(f"This program will help you play rock, scissors, & paper")
 # print(f"---CHOOSE MENU---\n1. MANAGE PLAYERS\n2. PLAY\n3. EXIT")
