@@ -72,10 +72,7 @@ def viewPlayer():
     print(f"You have chosen to view the list of players")
     print(f"The list of players is:")
     print(f"Player 1 Name: {player1['name']}")
-    print(f"Player 1 Status: {player1['status']}")
-    print()
     print(f"Player 2 Name: {player2['name']}")
-    print(f"Player 2 Status: {player2['status']}")
     menu = int(input("Enter your choice: "))
     opsiManagePlayer(menu)
 
